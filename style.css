@@ -1,0 +1,49 @@
+body {
+    background-color: rgba(187, 62, 62, 0.753);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.painel {
+    background-color: white;
+    width: 90%;
+    max-width: 400px; /* Reduz para celulares */
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    width: 100%;
+    max-width: 200px; /* Tamanho máximo do GIF */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#sim, #nao {
+    height: 40px;
+    width: 80px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+}
+
+#nao {
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .painel {
+        width: 95%;
+        padding: 15px;
+    }
+}
